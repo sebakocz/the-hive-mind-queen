@@ -1,0 +1,43 @@
+# .gitignore
+
+# Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+*.egg
+*.so
+*.log
+
+# Virtual environment
+venv/
+*.venv
+env/
+ENV/
+
+# PyCharm project files
+.idea/
+*.iml
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
+
+# Data files
+data/
+
+# Model files
+models/
+
+# Miscellaneous
+*.swp
+*.swo
+*.bak
+*.tmp
+*.DS_Store
+hasher.pkl
+scaler.pkl
+
+# Secrets
+.env
